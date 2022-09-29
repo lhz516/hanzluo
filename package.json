@@ -33,7 +33,7 @@
     "connected-react-router": "^6.6.1",
     "cookie-parser": "^1.4.4",
     "core-js": "^3.6.4",
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "d3-cloud": "^1.2.5",
     "debug": "^4.1.1",
     "express": "^5.0.0-alpha.7",
