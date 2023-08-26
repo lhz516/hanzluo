@@ -18,6 +18,48 @@ export default function Home() {
               <SocialLink key={text} href={href} icon={icon} text={text} />
             ))}
           </ul>
+          <h2 className="mb-1 mt-24 text-2xl">Projects</h2>
+          <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
+          <p className="text-xl">
+            <a
+              href="https://stock-news-gpt.hanzluo.com/"
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Stock News GPT
+            </a>
+          </p>
+          <p className="text-xl">
+            <a
+              href="https://github.com/lhz516/react-h5-audio-player"
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              React H5 Audio Player
+            </a>
+          </p>
+          <p className="text-xl">
+            <a
+              href="https://github.com/lhz516/react-simple-i18n"
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              React Simple I18n
+            </a>
+          </p>
+          <p className="text-xl">
+            <a
+              href="https://github.com/lhz516/webpack-react-express-ssr"
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Webpack React Express SSR
+            </a>
+          </p>
           <h2 className="mb-1 mt-24 text-2xl">Contact</h2>
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">hi@hanzluo.com</p>
