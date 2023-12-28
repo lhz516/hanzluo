@@ -22,12 +22,12 @@ export default function Home() {
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">
             <a
-              href="https://stock-news-gpt.hanzluo.com/"
+              href="https://app.stockmindai.com/"
               className="underline"
               target="_blank"
               rel="noreferrer"
             >
-              Stock News GPT
+              StockMind AI
             </a>
           </p>
           <p className="text-xl">
