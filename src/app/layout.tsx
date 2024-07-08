@@ -1,5 +1,5 @@
 import './globals.css';
-import Header from './header';
+// import Header from './header';
 
 export const metadata = {
   icons: {
@@ -16,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex min-h-[100vh] flex-col">
-        <Header />
+      <body className="flex min-h-screen flex-col">
+        {/* <Header /> */}
         {children}
       </body>
     </html>

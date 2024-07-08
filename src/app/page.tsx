@@ -4,7 +4,7 @@ import { socialLinks } from '@/data';
 export default function Home() {
   return (
     <main className="flex grow justify-center bg-slate-100 dark:bg-slate-800">
-      <div className="container mt-[calc(12vh+40px)] flex justify-center p-4">
+      <div className="container mt-[calc(10vh+40px)] flex justify-center p-4">
         <div className="flex flex-col text-center dark:text-slate-100">
           <h1 className="text-5xl md:text-6xl">
             Hello<span className="text-teal-400">,</span> I<span>&rsquo;</span>m
@@ -18,7 +18,7 @@ export default function Home() {
               <SocialLink key={text} href={href} icon={icon} text={text} />
             ))}
           </ul>
-          <h2 className="mb-1 mt-24 text-2xl">Projects</h2>
+          <h2 className="mb-1 mt-16 text-2xl">Projects</h2>
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">
             <a
@@ -60,7 +60,7 @@ export default function Home() {
               Webpack React Express SSR
             </a>
           </p>
-          <h2 className="mb-1 mt-24 text-2xl">Contact</h2>
+          <h2 className="mb-1 mt-16 text-2xl">Contact</h2>
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">hi@hanzluo.com</p>
           {/* <h2 className="text-3xl"></h2>
