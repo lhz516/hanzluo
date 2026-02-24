@@ -22,12 +22,12 @@ export default function Home() {
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">
             <a
-              href="https://app.stockmindai.com/"
+              href="https://motif.shenovadance.org/"
               className="underline"
               target="_blank"
               rel="noreferrer"
             >
-              StockMind AI
+              ShéNova Motif
             </a>
           </p>
           <p className="text-xl">
