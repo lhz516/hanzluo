@@ -18,7 +18,7 @@ export default function Home() {
               <SocialLink key={text} href={href} icon={icon} text={text} />
             ))}
           </ul>
-          <h2 className="mb-1 mt-16 text-2xl">Projects</h2>
+          <h2 className="mt-16 mb-1 text-2xl">Projects</h2>
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">
             <a
@@ -60,7 +60,7 @@ export default function Home() {
               Webpack React Express SSR
             </a>
           </p>
-          <h2 className="mb-1 mt-16 text-2xl">Contact</h2>
+          <h2 className="mt-16 mb-1 text-2xl">Contact</h2>
           <hr className="mx-auto mb-3 w-[20px] rounded-sm border-2 border-teal-400" />
           <p className="text-xl">hi@hanzluo.com</p>
           {/* <h2 className="text-3xl"></h2>
